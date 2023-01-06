@@ -72,7 +72,3 @@ input:-webkit-autofill:focus {
 .remind-register-container > a:nth-child(2) {
     margin-left: 2rem;
 }
-
-.remind-register-container > a:hover {
-    color: #bbb;
-}
