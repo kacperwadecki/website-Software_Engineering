@@ -19,45 +19,33 @@ body {
     justify-content: center;
 }
 
-.registration {
-    display: flex;
-}
-
-.registration {
+.login {
     display: flex;
     flex-direction: column;
 }
 
-.registration > h1, h2 {
+.login > h1 {
+    text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
-    font-weight: 300;
+    letter-spacing: 0.1rem;
 }
 
-.registration > label {
-    margin-top: 1rem;
-    letter-spacing: 0.08rem;
-    margin-left: -0.2rem;
-}
-
-.registration > input {
+.login > input {
     background: none;
     padding: 0.7rem;
     border-bottom: 0.1rem solid #888;
     outline: none;
 }
 
-.registration > .regulations-box {
-    padding: 1rem 0;
+.login > label {
+    margin-top: 1rem;
+    margin-left: -0.3rem;
 }
 
-.regulations-box > input:hover, .regulations-box > label:hover{
-    cursor:pointer;
-}
-
-.registration > button {
+.login > button {
     width: 10rem;
-    margin: 0.5rem auto;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
     height: 3rem;
     font-size: 1rem;
     background-color: rgb(7, 7, 7);
@@ -65,7 +53,7 @@ body {
     border: solid 0.1rem #333;
 }
 
-.registration > button:hover {
+.login > button:hover {
     cursor: pointer;
     background-color: #aaa;
     color: #111;
@@ -77,10 +65,16 @@ input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-.registration > span {
-    padding-bottom: 3rem;
-    padding-top: 1rem;
-    margin: auto;
+.remind-register-container > a{ 
+    text-decoration: none;
+}
+
+.remind-register-container > a:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.remind-register-container > a:hover {
+    color: #bbb;
 }
 
 .mini-nav {
