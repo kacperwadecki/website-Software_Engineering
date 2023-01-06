@@ -60,18 +60,17 @@ body {
     margin: 0.5rem auto;
     height: 3rem;
     font-size: 1rem;
-    background-color: #111;
+    background-color: rgb(7, 7, 7);
     border-radius: 0.1rem;
+    border: solid 0.1rem #111;
 }
 
 .registration > button:hover {
     cursor: pointer;
-    background-color: #ccc;
+    background-color: #aaa;
     color: #111;
-    transition: background 0.6s;
-    border: solid 0.1rem #111;
+    transition: 0.7s;
 }
-
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
